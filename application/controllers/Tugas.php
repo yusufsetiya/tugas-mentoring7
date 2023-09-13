@@ -16,6 +16,8 @@ class Tugas extends CI_Controller {
         $number2 = 7;
         $romawi1 = 'X';
         $romawi2 = 'VII';
+        echo "<h1>Tugas Mentoring 7</h1>";
+        echo "<hr>";
         echo "<h3>Bilangan Aritmatika Ke Romawi</h3>";
         echo "<p>$number dalam angka romawi adalah ".": "."<b>".romawi($number)."</b>"."</p>";
         echo "<p>$number2 dalam angka romawi adalah ".": "."<b>".romawi($number2)."</b>"."</p>";
